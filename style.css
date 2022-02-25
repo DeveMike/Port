@@ -254,3 +254,10 @@ ul li a:hover {
     padding-bottom: 10px;
     text-align: center;
 }
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
+    #nav-bar {
+        flex-direction: column;
+        background: green;
+    }
+}
