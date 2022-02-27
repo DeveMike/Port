@@ -9,6 +9,7 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
+    max-width: 100%;
 }
 
 .navbar {
@@ -255,9 +256,7 @@ ul li a:hover {
     text-align: center;
 }
 
-@media screen and (max-width: 800px) and (orientation: landscape) {
-    #nav-bar {
-        flex-direction: column;
-        background: green;
-    }
+@media only screen and (min-width: 375px) {
+    /* For mobile phones: */
+    .body {}
 }
